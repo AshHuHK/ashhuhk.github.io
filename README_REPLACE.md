@@ -1,18 +1,19 @@
-# Replacement package for ashhuhk.github.io
+# ashhuhk.github.io v3 simple replacement
 
-This package is a simplified academic homepage version.
+This is the simplified homepage version requested.
 
-## What changed
-- Kept only: About, Publications, Education, Future Research.
-- Removed the previous detailed research theme/main-line/team recruitment sections.
-- Publications are limited to 2023 onward and show only title + venue/year style information.
-- Education keeps only CUHK and Shanghai Jiao Tong University, without years.
-- Added bilingual English/Chinese toggle.
-- Added the uploaded research overview image at `assets/research-overview.png`.
-- Kept the warm beige/copper visual style.
+## Changes
+- Removed the oversized hero text and large title area.
+- Moved About Me to the top and reduced heading sizes.
+- Removed the four detailed research cards.
+- Kept only: About Me, Publications, Education, and Future Research figure.
+- Publications list only 2023–present and shows title + venue/year style information, without full author lists.
+- Education includes Shanghai Jiao Tong University undergraduate mathematics and CUHK Ph.D. computer science.
+- Added advisor links for Prof. Yu Li and Prof. Irwin King.
+- Portrait is displayed in its original aspect ratio; no square crop / zoom effect.
 
-## How to use
+## Upload instructions
 1. Unzip this file.
-2. Upload all files and folders to the root of `AshHuHK/ashhuhk.github.io`.
+2. Upload the extracted contents to the root of `AshHuHK/ashhuhk.github.io`.
 3. Replace the old `index.html`, `assets/`, `_config.yml`, and `.nojekyll`.
 4. Keep GitHub Pages set to `main` branch and `/root`.
