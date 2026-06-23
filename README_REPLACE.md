@@ -1,33 +1,18 @@
-# AshHuHK GitHub Pages replacement package
+# Replacement package for ashhuhk.github.io
 
-This is a static GitHub Pages homepage replacement for `AshHuHK/ashhuhk.github.io`.
+This package is a simplified academic homepage version.
 
-## Files to upload
+## What changed
+- Kept only: About, Publications, Education, Future Research.
+- Removed the previous detailed research theme/main-line/team recruitment sections.
+- Publications are limited to 2023 onward and show only title + venue/year style information.
+- Education keeps only CUHK and Shanghai Jiao Tong University, without years.
+- Added bilingual English/Chinese toggle.
+- Added the uploaded research overview image at `assets/research-overview.png`.
+- Kept the warm beige/copper visual style.
 
-Upload everything in this folder to the root of your repository:
-
-- `index.html`
-- `assets/style.css`
-- `assets/app.js`
-- `photos/WechatIMG251.jpeg`
-- `.nojekyll`
-- `_config.yml`
-- `pub/` folder, if you want to keep old PDF links
-
-## GitHub Pages settings
-
-In GitHub:
-
-1. Repository -> Settings -> Pages
-2. Build and deployment: `Deploy from a branch`
-3. Branch: `main`
-4. Folder: `/ (root)`
-5. Save
-
-Then commit one small change or re-run the Pages workflow.
-
-## Notes
-
-- The design is original, academic-style, with warm cream / terracotta / sand colors.
-- It has a language toggle between English and Chinese.
-- The publication filter and search run locally in the browser; no server or build step is needed.
+## How to use
+1. Unzip this file.
+2. Upload all files and folders to the root of `AshHuHK/ashhuhk.github.io`.
+3. Replace the old `index.html`, `assets/`, `_config.yml`, and `.nojekyll`.
+4. Keep GitHub Pages set to `main` branch and `/root`.

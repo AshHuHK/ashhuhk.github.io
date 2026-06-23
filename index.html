@@ -1,360 +1,225 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Zhihang (Ash) Hu | Great Bay University</title>
-  <meta name="description" content="Zhihang Hu, Assistant Professor, PhD Supervisor, and Research Scientist at Great Bay University. AI for RNA and biomolecular modeling." />
-  <meta name="theme-color" content="#b9754b" />
+  <meta name="description" content="Zhihang Hu — Assistant Professor, PhD Supervisor, Research Scientist at Great Bay University. AI for RNA structure, RNA-protein interfaces, and molecular discovery." />
+  <title>Zhihang Hu | Great Bay University</title>
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-
-  <header class="topbar" id="top">
-    <div class="topbar__inner">
-      <a class="brand" href="#home" aria-label="Zhihang Hu homepage">
-        <span class="brand__mark">ZH</span>
-        <span>
-          <strong>Zhihang Hu</strong>
-          <small class="lang-en">AI for RNA Biology</small>
-          <small class="lang-zh">RNA 计算生物学</small>
-        </span>
+  <header class="site-header" id="top">
+    <nav class="nav wrap" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Zhihang Hu homepage">
+        <span class="brand-mark">ZH</span>
+        <span class="brand-text">Zhihang Hu</span>
       </a>
-      <nav class="nav" aria-label="Main navigation">
-        <a href="#about"><span class="lang-en">About</span><span class="lang-zh">关于</span></a>
-        <a href="#research"><span class="lang-en">Research</span><span class="lang-zh">研究</span></a>
-        <a href="#publications"><span class="lang-en">Publications</span><span class="lang-zh">论文</span></a>
-        <a href="#cv"><span class="lang-en">CV</span><span class="lang-zh">履历</span></a>
-        <a href="#contact"><span class="lang-en">Contact</span><span class="lang-zh">联系</span></a>
-      </nav>
-      <div class="toolbar">
-        <button class="lang-toggle" type="button" data-lang-toggle aria-label="Switch language">
-          <span class="lang-en">中文</span><span class="lang-zh">EN</span>
-        </button>
+      <div class="nav-links">
+        <a href="#about" data-en="About" data-zh="关于我">About</a>
+        <a href="#publications" data-en="Publications" data-zh="论文">Publications</a>
+        <a href="#education" data-en="Education" data-zh="教育经历">Education</a>
+        <a href="#future" data-en="Future Research" data-zh="后续研究">Future Research</a>
       </div>
-    </div>
+      <button class="lang-toggle" type="button" aria-label="Switch language">中文</button>
+    </nav>
   </header>
 
-  <div class="page-shell" id="home">
-    <aside class="profile-card" aria-label="Profile summary">
-      <div class="profile-card__photo-wrap">
-        <img class="profile-card__photo" src="photos/WechatIMG251.jpeg" alt="Zhihang Hu portrait" />
+  <main>
+    <section class="hero wrap">
+      <aside class="profile-card">
+        <img class="portrait" src="photos/WechatIMG251.jpeg" alt="Portrait of Zhihang Hu" />
+        <div class="profile-meta">
+          <strong>Zhihang Hu</strong>
+          <span class="lang lang-en">Assistant Professor · PhD Supervisor · Research Scientist</span>
+          <span class="lang lang-zh">助理教授 · 博士生导师 · 研究员</span>
+          <span class="lang lang-en">School of Information Science and Technology, Great Bay University</span>
+          <span class="lang lang-zh">大湾区大学 信息科学技术学院</span>
+        </div>
+        <div class="contact-row">
+          <a href="mailto:ashhu.hk@gmail.com">Email</a>
+          <a href="https://github.com/AshHuHK" rel="noopener">GitHub</a>
+          <a href="#publications">Papers</a>
+        </div>
+      </aside>
+
+      <div class="hero-copy">
+        <p class="eyebrow lang lang-en">Computational biology · AI for RNA and biomolecules</p>
+        <p class="eyebrow lang lang-zh">计算生物学 · RNA 与生物大分子人工智能</p>
+        <h1>
+          <span class="lang lang-en">Zhihang Hu</span>
+          <span class="lang lang-zh">胡智航</span>
+        </h1>
+        <p class="hero-title lang lang-en">Assistant Professor, PhD Supervisor, and Research Scientist at Great Bay University.</p>
+        <p class="hero-title lang lang-zh">大湾区大学助理教授、博士生导师、研究员。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#publications" data-en="View Publications" data-zh="查看论文">View Publications</a>
+          <a class="button ghost" href="#future" data-en="Future Research" data-zh="后续研究">Future Research</a>
+        </div>
       </div>
-      <h1>Zhihang (Ash) Hu</h1>
-      <p class="profile-card__subtitle">
-        <span class="lang-en">Assistant Professor · PhD Supervisor · Research Scientist</span>
-        <span class="lang-zh">助理教授 · 博士生导师 · 研究员</span>
-      </p>
-      <p class="profile-card__affiliation">
-        <span class="lang-en">School of Information Science and Technology<br>Great Bay University</span>
-        <span class="lang-zh">大湾区大学 信息科学技术学院</span>
-      </p>
-      <div class="profile-card__meta">
-        <span>📍 Guangdong, China</span>
-        <a href="mailto:ashhu.hk@gmail.com">ashhu.hk@gmail.com</a>
+    </section>
+
+    <section class="section wrap" id="about">
+      <div class="section-head">
+        <p class="section-kicker lang lang-en">About Me</p>
+        <p class="section-kicker lang lang-zh">关于我</p>
+        <h2 class="lang lang-en">Machine learning for biomolecular structure, interfaces, and molecular discovery.</h2>
+        <h2 class="lang lang-zh">机器学习用于生物大分子结构、互作与分子发现。</h2>
       </div>
-      <div class="profile-card__links">
-        <a href="https://scholar.google.com/citations?user=GWXSwv8AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
-        <a href="https://github.com/AshHuHK" target="_blank" rel="noopener">GitHub</a>
+      <div class="content-card prose">
+        <p class="lang lang-en">I am an Assistant Professor, PhD Supervisor, and Research Scientist at the School of Information Science and Technology, Great Bay University. My research develops machine learning models for biomolecular structure, interaction, and design problems, with a focus on RNA structural states, RNA–protein interfaces, and biologically grounded molecular discovery.</p>
+        <p class="lang lang-zh">我现任大湾区大学信息科学技术学院助理教授、博士生导师、研究员。我的研究主要发展用于生物大分子结构、互作与设计问题的机器学习模型，重点关注 RNA 结构状态、RNA—蛋白互作界面，以及具有生物学背景的分子发现问题。</p>
       </div>
-      <div class="recruiting-box">
-        <strong class="lang-en">Recruiting</strong><strong class="lang-zh">招生招聘</strong>
-        <p class="lang-en">PhD students, postdocs, research assistants, and visiting students interested in AI for RNA biology are welcome to get in touch.</p>
-        <p class="lang-zh">欢迎对 AI for RNA、计算生物学、大分子结构建模感兴趣的博士生、博士后、科研助理和访问学生联系。</p>
+    </section>
+
+    <section class="section wrap" id="publications">
+      <div class="section-head compact">
+        <p class="section-kicker lang lang-en">Publications</p>
+        <p class="section-kicker lang lang-zh">论文</p>
+        <h2 class="lang lang-en">Selected publications since 2023</h2>
+        <h2 class="lang lang-zh">2023 年以来代表性论文</h2>
       </div>
-    </aside>
 
-    <main class="content" id="main">
-      <section class="hero section" aria-labelledby="hero-title">
-        <div class="eyebrow">
-          <span class="dot"></span>
-          <span class="lang-en">AI-driven biomolecular structure modeling</span>
-          <span class="lang-zh">AI 驱动的大分子结构建模</span>
-        </div>
-        <h2 id="hero-title">
-          <span class="lang-en">Computational RNA biology from sequence, structure, function to design.</span>
-          <span class="lang-zh">围绕 RNA “序列—结构—功能—设计”的计算生物学研究。</span>
-        </h2>
-        <p class="hero__lead lang-en">I develop machine learning methods for RNA representation learning, 3D structure prediction, RNA/protein interaction modeling, functional RNA design, and scalable homolog retrieval.</p>
-        <p class="hero__lead lang-zh">我长期聚焦 RNA 计算生物学与 AI 驱动的大分子结构建模，发展 RNA 表征学习、三维结构预测、RNA/蛋白互作建模、功能 RNA 设计和高效同源检索方法。</p>
-        <div class="hero__actions">
-          <a class="button button--primary" href="#publications"><span class="lang-en">View publications</span><span class="lang-zh">查看论文</span></a>
-          <a class="button button--ghost" href="#contact"><span class="lang-en">Contact me</span><span class="lang-zh">联系我</span></a>
-        </div>
-        <div class="stats-grid" aria-label="Academic highlights">
-          <div><strong>14+</strong><span class="lang-en">SCI papers</span><span class="lang-zh">SCI 论文</span></div>
-          <div><strong>7</strong><span class="lang-en">first/co-first</span><span class="lang-zh">第一/共同一作</span></div>
-          <div><strong>H 11</strong><span class="lang-en">h-index</span><span class="lang-zh">H 指数</span></div>
-          <div><strong>1100+</strong><span class="lang-en">citations</span><span class="lang-zh">引用</span></div>
-        </div>
-      </section>
-
-      <section class="section split" id="about" aria-labelledby="about-title">
-        <div>
-          <p class="section-kicker lang-en">About me</p>
-          <p class="section-kicker lang-zh">关于我</p>
-          <h2 id="about-title"><span class="lang-en">Research profile</span><span class="lang-zh">个人简介</span></h2>
-        </div>
-        <div class="rich-text">
-          <p class="lang-en">I am an Assistant Professor, PhD Supervisor, and Research Scientist at Great Bay University. My research centers on AI for computational RNA biology and biomolecular modeling, with a focus on building generalizable, interpretable, and designable models for RNA structure and function.</p>
-          <p class="lang-en">My previous work includes RNA-FM, RhoFold/RhoFold+, RhoDesign, and DHR, spanning large-scale RNA representation learning, RNA 3D structure prediction, functional RNA sequence design, and efficient homolog retrieval.</p>
-          <p class="lang-zh">我现任大湾区大学助理教授、博士生导师、研究员。研究方向聚焦 AI for RNA 计算生物学与大分子结构建模，目标是建立具有泛化性、可解释性和可设计性的 RNA 结构与功能建模方法。</p>
-          <p class="lang-zh">代表性工作包括 RNA-FM、RhoFold/RhoFold+、RhoDesign 和 DHR，覆盖大规模 RNA 表征学习、RNA 三维结构预测、功能 RNA 序列设计以及高效同源检索。</p>
-        </div>
-      </section>
-
-      <section class="section" id="research" aria-labelledby="research-title">
-        <p class="section-kicker lang-en">Research interests</p>
-        <p class="section-kicker lang-zh">研究方向</p>
-        <h2 id="research-title"><span class="lang-en">AI for RNA structure, interaction, and design</span><span class="lang-zh">面向 RNA 结构、互作与设计的人工智能方法</span></h2>
-        <div class="research-grid">
-          <article class="research-card">
-            <span class="research-card__icon">01</span>
-            <h3>RNA Foundation Models</h3>
-            <p class="lang-en">Self-supervised RNA representation learning for structure, function, and cross-family generalization.</p>
-            <p class="lang-zh">基于自监督学习的 RNA 通用表征，用于结构、功能预测与跨家族泛化。</p>
-          </article>
-          <article class="research-card">
-            <span class="research-card__icon">02</span>
-            <h3>RNA 3D Structure</h3>
-            <p class="lang-en">End-to-end RNA 3D structure prediction with learned sequence representations and geometric constraints.</p>
-            <p class="lang-zh">结合序列表征与几何约束，发展端到端 RNA 三维结构预测方法。</p>
-          </article>
-          <article class="research-card">
-            <span class="research-card__icon">03</span>
-            <h3>RNA-Protein Interaction</h3>
-            <p class="lang-en">Modeling nucleotide-residue contacts and interpretable recognition mechanisms in cellular contexts.</p>
-            <p class="lang-zh">解析 RNA—蛋白互作中的核苷酸—残基接触界面和可解释识别机制。</p>
-          </article>
-          <article class="research-card">
-            <span class="research-card__icon">04</span>
-            <h3>Functional RNA Design</h3>
-            <p class="lang-en">Structure-guided generative design of functional RNA molecules and aptamers.</p>
-            <p class="lang-zh">面向功能核酸与适配体的结构引导式生成设计。</p>
-          </article>
-          <article class="research-card">
-            <span class="research-card__icon">05</span>
-            <h3>Dense Homolog Retrieval</h3>
-            <p class="lang-en">Scalable homolog search and evolutionary information extraction using language-model representations.</p>
-            <p class="lang-zh">利用大模型表征进行高效同源检索与进化信息提取。</p>
-          </article>
-          <article class="research-card">
-            <span class="research-card__icon">06</span>
-            <h3>Virtual Cell Mechanisms</h3>
-            <p class="lang-en">RNA structural-state modeling in cellular environments and viral RNA-host RBP mechanisms.</p>
-            <p class="lang-zh">面向细胞环境的 RNA 多状态结构建模与病毒 RNA—宿主 RBP 机制解析。</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section path-section" aria-labelledby="path-title">
-        <div class="path-section__text">
-          <p class="section-kicker lang-en">Research path</p>
-          <p class="section-kicker lang-zh">研究主线</p>
-          <h2 id="path-title"><span class="lang-en">From data scarcity to structure prediction, design, and mechanism.</span><span class="lang-zh">从数据稀缺到结构预测、功能设计和机制解析。</span></h2>
-        </div>
-        <div class="path-timeline">
-          <div><strong>RNA-FM</strong><span class="lang-en">Large-scale RNA representation learning</span><span class="lang-zh">大规模 RNA 表征学习</span></div>
-          <div><strong>RhoFold+</strong><span class="lang-en">RNA 3D structure prediction</span><span class="lang-zh">RNA 三维结构预测</span></div>
-          <div><strong>RhoDesign</strong><span class="lang-en">Functional RNA design</span><span class="lang-zh">功能 RNA 设计</span></div>
-          <div><strong>DHR</strong><span class="lang-en">Dense homolog retrieval</span><span class="lang-zh">稠密同源检索</span></div>
-          <div><strong>In-cell RNA</strong><span class="lang-en">RNA states and host interactions</span><span class="lang-zh">细胞内 RNA 状态与宿主互作</span></div>
-        </div>
-      </section>
-
-      <section class="section" id="publications" aria-labelledby="publications-title">
-        <div class="section-heading-row">
-          <div>
-            <p class="section-kicker lang-en">Publications</p>
-            <p class="section-kicker lang-zh">代表性论文</p>
-            <h2 id="publications-title"><span class="lang-en">Selected publications</span><span class="lang-zh">代表性成果</span></h2>
+      <div class="pub-list" aria-label="Selected publications since 2023">
+        <article class="pub-item">
+          <div class="pub-year">2026</div>
+          <div class="pub-main">
+            <h3>PRIDE: A survey and benchmark for structure-guided protein design with deep learning</h3>
+            <p><span class="venue">Genomics, Proteomics &amp; Bioinformatics</span></p>
           </div>
-          <label class="search-box">
-            <span class="sr-only">Search publications</span>
-            <input type="search" id="pubSearch" placeholder="Search publications" />
-          </label>
-        </div>
-        <div class="filters" aria-label="Publication filters">
-          <button class="filter-button is-active" type="button" data-filter="all">All</button>
-          <button class="filter-button" type="button" data-filter="featured">Featured</button>
-          <button class="filter-button" type="button" data-filter="rna">RNA</button>
-          <button class="filter-button" type="button" data-filter="ai">AI / ML</button>
-          <button class="filter-button" type="button" data-filter="cv">Vision</button>
-        </div>
-        <div class="publication-list" id="publicationList">
-          <article class="publication featured" data-filter-tags="featured rna ai structure" data-year="2024">
-            <div class="pub-year">2024</div>
-            <div class="pub-body">
-              <h3>Accurate RNA 3D structure prediction using a language model-based deep learning approach</h3>
-              <p class="authors">Tao Shen, <strong>Zhihang Hu</strong>, Siqi Sun, Di Liu, Felix Wong, Jiuming Wang, Jiayang Chen, Yixuan Wang, Liang Hong, Jin Xiao, Liangzhen Zheng, Tejas Krishnamoorthi, Irwin King, Sheng Wang, Peng Yin, James J. Collins, Yu Li.</p>
-              <p class="venue"><em>Nature Methods</em>, 21(12), 2024. <span class="tag">Co-first author</span></p>
-              <p class="lang-en pub-note">RNA-FM / RhoFold family work on language-model-based RNA 3D structure prediction.</p>
-              <p class="lang-zh pub-note">基于语言模型的 RNA 三维结构预测工作，支撑 RNA-FM / RhoFold 系列方法。</p>
-            </div>
-          </article>
+        </article>
 
-          <article class="publication featured" data-filter-tags="featured ai homolog retrieval protein" data-year="2025">
-            <div class="pub-year">2025</div>
-            <div class="pub-body">
-              <h3>Fast, sensitive detection of protein homologs using deep dense retrieval</h3>
-              <p class="authors">Liang Hong, <strong>Zhihang Hu</strong>, Siqi Sun, Xiangru Tang, Jiuming Wang, Qingxiong Tan, Liangzhen Zheng, Sheng Wang, Sheng Xu, Irwin King, Mark Gerstein, Yu Li.</p>
-              <p class="venue"><em>Nature Biotechnology</em>, 43(6), 2025. <span class="tag">Co-first author</span></p>
-              <p class="lang-en pub-note">Dense retrieval framework for fast and sensitive homolog search and MSA construction.</p>
-              <p class="lang-zh pub-note">面向同源搜索与 MSA 构建的稠密检索框架。</p>
-            </div>
-          </article>
-
-          <article class="publication featured" data-filter-tags="featured ai drug graph" data-year="2023">
-            <div class="pub-year">2023</div>
-            <div class="pub-body">
-              <h3>Drug synergistic combinations predictions via large-scale pre-training and graph structure learning</h3>
-              <p class="authors"><strong>Zhihang Hu</strong>, Qinze Yu, Yucheng Guo, Taifeng Wang, Irwin King, Xin Gao, Le Song, Yu Li.</p>
-              <p class="venue"><em>RECOMB</em>, 2023. <span class="tag">Co-first author</span></p>
-              <p class="lang-en pub-note">Large-scale pretraining and graph learning for drug combination prediction.</p>
-              <p class="lang-zh pub-note">结合大规模预训练与图结构学习的药物协同组合预测。</p>
-            </div>
-          </article>
-
-          <article class="publication featured" data-filter-tags="featured ai protein design benchmark" data-year="2026">
-            <div class="pub-year">2026</div>
-            <div class="pub-body">
-              <h3>PRIDE: A survey and benchmark for structure-guided protein design with deep learning</h3>
-              <p class="authors"><strong>Zhihang Hu</strong>, Dongchen He, Lei Li, Hanqun Cao, Wenjian Jiang, Sheng Wang, Jintao Meng, Tao Shen, Siqi Sun, Irwin King, Yu Li.</p>
-              <p class="venue"><em>Genomics, Proteomics &amp; Bioinformatics</em>, 2026. <span class="tag">Co-first author</span></p>
-              <p class="lang-en pub-note">A benchmark and survey for structure-guided protein design with deep learning.</p>
-              <p class="lang-zh pub-note">面向深度学习结构引导蛋白设计的综述与基准。</p>
-            </div>
-          </article>
-
-          <article class="publication featured" data-filter-tags="featured rna ai design" data-year="2024">
-            <div class="pub-year">2024</div>
-            <div class="pub-body">
-              <h3>Deep generative design of RNA aptamers using structural predictions</h3>
-              <p class="authors">Felix Wong, Dongchen He, Aarti Krishnan, Liang Hong, Alexander Z. Wang, Jiuming Wang, <strong>Zhihang Hu</strong>, Satotaka Omori, Alicia Li, Jiahua Rao, Qinze Yu, Wengong Jin, Tianqing Zhang, Katherine Ilia, Jack X. Chen, Shuangjia Zheng, Irwin King, Yu Li, James J. Collins.</p>
-              <p class="venue"><em>Nature Computational Science</em>, 4(11), 2024.</p>
-              <p class="lang-en pub-note">Structure-guided deep generative design for RNA aptamers.</p>
-              <p class="lang-zh pub-note">基于结构预测的 RNA 适配体深度生成设计。</p>
-            </div>
-          </article>
-
-          <article class="publication" data-filter-tags="ai bioinformatics foundation-model" data-year="2024">
-            <div class="pub-year">2024</div>
-            <div class="pub-body">
-              <h3>Progress and opportunities of foundation models in bioinformatics</h3>
-              <p class="authors">Qing Li, <strong>Zhihang Hu</strong>, Yixuan Wang, Lei Li, Yimin Fan, Irwin King, Gengjie Jia, Sheng Wang, Le Song, Yu Li.</p>
-              <p class="venue"><em>Briefings in Bioinformatics</em>, 25(6), 2024.</p>
-            </div>
-          </article>
-
-          <article class="publication" data-filter-tags="ai single-cell omics" data-year="2023">
-            <div class="pub-year">2023</div>
-            <div class="pub-body">
-              <h3>Con-AAE: contrastive cycle adversarial autoencoders for single-cell multi-omics alignment and integration</h3>
-              <p class="authors">Xuesong Wang, <strong>Zhihang Hu</strong>, Tingyang Yu, Yixuan Wang, Ruijie Wang, Yumeng Wei, Juan Shu, Jianzhu Ma, Yu Li.</p>
-              <p class="venue"><em>Bioinformatics</em>, 2023.</p>
-            </div>
-          </article>
-
-          <article class="publication" data-filter-tags="ai single-cell contrastive" data-year="2022">
-            <div class="pub-year">2022</div>
-            <div class="pub-body">
-              <h3>Self-supervised contrastive learning for integrative single cell RNA-seq data analysis</h3>
-              <p class="authors">Wenkai Han, Yuqi Cheng, Jiayang Chen, Huawen Zhong, <strong>Zhihang Hu</strong>, Siyuan Chen, Licheng Zong, Liang Hong, Ting-Fung Chan, Irwin King, Xin Gao, Yu Li.</p>
-              <p class="venue"><em>Briefings in Bioinformatics</em>, 23(5), 2022.</p>
-            </div>
-          </article>
-
-          <article class="publication" data-filter-tags="ai nlp education" data-year="2021">
-            <div class="pub-year">2021</div>
-            <div class="pub-body">
-              <h3>DeepCURATER: Deep Learning for CoURse And Teaching Evaluation and Review</h3>
-              <p class="authors"><strong>Zhihang Hu</strong>, Bhaavanaa Thumu, Yuren Qin, ZhiSheng Tao, Yijian Lu, Omar Kan, Yu Li, Irwin King.</p>
-              <p class="venue"><em>IEEE TALE</em>, 2021. <span class="tag">Sole first author</span></p>
-            </div>
-          </article>
-
-          <article class="publication" data-filter-tags="cv ai video" data-year="2019">
-            <div class="pub-year">2019</div>
-            <div class="pub-body">
-              <h3>Generative adversarial networks for video prediction with action control</h3>
-              <p class="authors"><strong>Zhihang Hu</strong>, Jason T. L. Wang.</p>
-              <p class="venue"><em>IJCAI</em>, 2019. <span class="tag">Sole first author</span></p>
-            </div>
-          </article>
-
-          <article class="publication" data-filter-tags="cv ai video" data-year="2018">
-            <div class="pub-year">2018</div>
-            <div class="pub-body">
-              <h3>A 3D Atrous Convolutional Long Short-Term Memory Network for Background Subtraction</h3>
-              <p class="authors"><strong>Zhihang Hu</strong>, Turki Turki, Nhathai Phan, Jason T. L. Wang.</p>
-              <p class="venue"><em>IEEE Access</em>, 6, 2018. <span class="tag">Sole first author</span></p>
-            </div>
-          </article>
-
-          <article class="publication" data-filter-tags="rna ai review" data-year="2025">
-            <div class="pub-year">2025</div>
-            <div class="pub-body">
-              <h3>Deep learning for RNA structure prediction</h3>
-              <p class="authors">Jiuming Wang, Yimin Fan, Liang Hong, <strong>Zhihang Hu</strong>, Yu Li.</p>
-              <p class="venue"><em>Current Opinion in Structural Biology</em>, 91, 2025.</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="cv" aria-labelledby="cv-title">
-        <p class="section-kicker">CV</p>
-        <h2 id="cv-title"><span class="lang-en">Education and experience</span><span class="lang-zh">教育与工作经历</span></h2>
-        <div class="timeline">
-          <div class="timeline-item">
-            <span class="timeline-date">2026 - present</span>
-            <h3><span class="lang-en">Assistant Professor / PhD Supervisor / Research Scientist</span><span class="lang-zh">助理教授 / 博士生导师 / 研究员</span></h3>
-            <p><span class="lang-en">School of Information Science and Technology, Great Bay University</span><span class="lang-zh">大湾区大学 信息科学技术学院</span></p>
+        <article class="pub-item">
+          <div class="pub-year">2025</div>
+          <div class="pub-main">
+            <h3>Fast, sensitive detection of protein homologs using deep dense retrieval</h3>
+            <p><span class="venue">Nature Biotechnology</span></p>
           </div>
-          <div class="timeline-item">
-            <span class="timeline-date">2026</span>
-            <h3><span class="lang-en">Research Scientist</span><span class="lang-zh">研究员</span></h3>
-            <p><span class="lang-en">Shanghai AI Laboratory / Shanghai Institute for Scientific Intelligence</span><span class="lang-zh">上海科学智能研究院 / 上海人工智能实验室相关经历</span></p>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-date">2021 - 2025</span>
-            <h3>Ph.D. in Computer Science</h3>
-            <p><span class="lang-en">The Chinese University of Hong Kong</span><span class="lang-zh">香港中文大学，计算机科学博士</span></p>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-date">2017 - 2021</span>
-            <h3>Ph.D. in Computer Science</h3>
-            <p><span class="lang-en">New Jersey Institute of Technology</span><span class="lang-zh">新泽西理工学院，计算机科学博士阶段经历</span></p>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-date">2011 - 2015</span>
-            <h3>B.S. in Mathematics and Applied Mathematics</h3>
-            <p><span class="lang-en">Shanghai Jiao Tong University</span><span class="lang-zh">上海交通大学，数学与应用数学学士</span></p>
-          </div>
-        </div>
-      </section>
+        </article>
 
-      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
-        <div>
-          <p class="section-kicker lang-en">Contact</p>
-          <p class="section-kicker lang-zh">联系</p>
-          <h2 id="contact-title"><span class="lang-en">Join the group</span><span class="lang-zh">加入团队</span></h2>
-          <p class="lang-en">I welcome motivated students and collaborators interested in AI for bioinformatics, computational RNA biology, biomolecular structure prediction, and RNA-protein interaction modeling.</p>
-          <p class="lang-zh">欢迎对 AI for Bioinformatics、RNA 计算生物学、大分子结构预测和 RNA—蛋白互作建模感兴趣的同学与合作者联系。</p>
-        </div>
-        <div class="contact-card">
-          <a href="mailto:ashhu.hk@gmail.com">ashhu.hk@gmail.com</a>
-          <a href="https://github.com/AshHuHK" target="_blank" rel="noopener">github.com/AshHuHK</a>
-          <a href="https://scholar.google.com/citations?user=GWXSwv8AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
-        </div>
-      </section>
+        <article class="pub-item">
+          <div class="pub-year">2025</div>
+          <div class="pub-main">
+            <h3>Deep learning for RNA structure prediction</h3>
+            <p><span class="venue">Current Opinion in Structural Biology</span></p>
+          </div>
+        </article>
 
-      <footer class="footer">
-        <p>© <span id="year"></span> Zhihang Hu. Built with a static GitHub Pages design.</p>
-      </footer>
-    </main>
-  </div>
+        <article class="pub-item">
+          <div class="pub-year">2024</div>
+          <div class="pub-main">
+            <h3>Accurate RNA 3D structure prediction using a language model-based deep learning approach</h3>
+            <p><span class="venue">Nature Methods</span></p>
+          </div>
+        </article>
+
+        <article class="pub-item">
+          <div class="pub-year">2024</div>
+          <div class="pub-main">
+            <h3>Deep generative design of RNA aptamers using structural predictions</h3>
+            <p><span class="venue">Nature Computational Science</span></p>
+          </div>
+        </article>
+
+        <article class="pub-item">
+          <div class="pub-year">2024</div>
+          <div class="pub-main">
+            <h3>Progress and opportunities of foundation models in bioinformatics</h3>
+            <p><span class="venue">Briefings in Bioinformatics</span></p>
+          </div>
+        </article>
+
+        <article class="pub-item">
+          <div class="pub-year">2023</div>
+          <div class="pub-main">
+            <h3>Drug synergistic combinations predictions via large-scale pre-training and graph structure learning</h3>
+            <p><span class="venue">RECOMB</span></p>
+          </div>
+        </article>
+
+        <article class="pub-item">
+          <div class="pub-year">2023</div>
+          <div class="pub-main">
+            <h3>Con-AAE: contrastive cycle adversarial autoencoders for single-cell multi-omics alignment and integration</h3>
+            <p><span class="venue">Bioinformatics</span></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="education">
+      <div class="section-head compact">
+        <p class="section-kicker lang lang-en">Education</p>
+        <p class="section-kicker lang lang-zh">教育经历</p>
+        <h2 class="lang lang-en">Academic training</h2>
+        <h2 class="lang lang-zh">学术训练</h2>
+      </div>
+      <div class="edu-grid">
+        <article class="edu-card">
+          <h3 class="lang lang-en">The Chinese University of Hong Kong</h3>
+          <h3 class="lang lang-zh">香港中文大学</h3>
+          <p class="lang lang-en">Ph.D. in Computer Science</p>
+          <p class="lang lang-zh">计算机科学博士</p>
+        </article>
+        <article class="edu-card">
+          <h3 class="lang lang-en">Shanghai Jiao Tong University</h3>
+          <h3 class="lang lang-zh">上海交通大学</h3>
+          <p class="lang lang-en">B.S. in Mathematics and Applied Mathematics</p>
+          <p class="lang lang-zh">数学与应用数学学士</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="future">
+      <div class="section-head compact">
+        <p class="section-kicker lang lang-en">Future Research</p>
+        <p class="section-kicker lang lang-zh">后续研究</p>
+        <h2 class="lang lang-en">Artificial intelligence in biomedical and biomolecular science</h2>
+        <h2 class="lang lang-zh">生物医学与生物大分子科学中的人工智能</h2>
+      </div>
+
+      <figure class="research-figure">
+        <img src="assets/research-overview.png" alt="Artificial intelligence connecting biomedical applications and computational biology tasks" />
+        <figcaption class="lang lang-en">An overview image for the future research scope: artificial intelligence as a bridge between biomedical applications and computational biology tasks.</figcaption>
+        <figcaption class="lang lang-zh">后续研究示意图：以人工智能连接生物医学应用与计算生物学任务。</figcaption>
+      </figure>
+
+      <div class="future-grid">
+        <article>
+          <span>01</span>
+          <h3 class="lang lang-en">Cell-aware RNA structural states</h3>
+          <h3 class="lang lang-zh">细胞环境下 RNA 结构状态</h3>
+          <p class="lang lang-en">Modeling representative RNA conformations under cellular contexts and experimental signals.</p>
+          <p class="lang lang-zh">结合细胞环境与实验信号，建模 RNA 的代表性构象状态。</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3 class="lang lang-en">RNA–protein interfaces</h3>
+          <h3 class="lang lang-zh">RNA—蛋白互作界面</h3>
+          <p class="lang lang-en">Predicting contact maps, interface geometry, and interpretable recognition mechanisms.</p>
+          <p class="lang lang-zh">预测接触图、界面几何结构和可解释的识别机制。</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3 class="lang lang-en">Viral RNA and host regulation</h3>
+          <h3 class="lang lang-zh">病毒 RNA 与宿主调控</h3>
+          <p class="lang lang-en">Identifying key RNA elements and host RBP interaction nodes in representative viral systems.</p>
+          <p class="lang lang-zh">在代表性病毒体系中识别关键 RNA 元件与宿主 RBP 互作节点。</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3 class="lang lang-en">Molecular design</h3>
+          <h3 class="lang lang-zh">功能分子设计</h3>
+          <p class="lang lang-en">Building design models for functional RNA molecules and broader biomedical discovery.</p>
+          <p class="lang lang-zh">构建面向功能 RNA 分子与生物医学发现的设计模型。</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <p>© <span id="year"></span> Zhihang Hu · Great Bay University</p>
+    <a href="#top" data-en="Back to top" data-zh="回到顶部">Back to top</a>
+  </footer>
 
   <script src="assets/app.js"></script>
 </body>
