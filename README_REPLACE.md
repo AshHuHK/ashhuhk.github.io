@@ -1,19 +1,20 @@
-# ashhuhk.github.io v3 simple replacement
+# Zhihang Hu GitHub Pages - v4 Kim-style minimal version
 
-This is the simplified homepage version requested.
+This package is designed as a minimal AcademicPages-like site, close to the clean layout of https://kimxbzheng.github.io/ while using original HTML/CSS.
 
-## Changes
-- Removed the oversized hero text and large title area.
-- Moved About Me to the top and reduced heading sizes.
-- Removed the four detailed research cards.
-- Kept only: About Me, Publications, Education, and Future Research figure.
-- Publications list only 2023–present and shows title + venue/year style information, without full author lists.
-- Education includes Shanghai Jiao Tong University undergraduate mathematics and CUHK Ph.D. computer science.
-- Added advisor links for Prof. Yu Li and Prof. Irwin King.
-- Portrait is displayed in its original aspect ratio; no square crop / zoom effect.
+## Upload steps
 
-## Upload instructions
-1. Unzip this file.
-2. Upload the extracted contents to the root of `AshHuHK/ashhuhk.github.io`.
-3. Replace the old `index.html`, `assets/`, `_config.yml`, and `.nojekyll`.
-4. Keep GitHub Pages set to `main` branch and `/root`.
+1. Unzip this package.
+2. Upload all unzipped files and folders to the root of `AshHuHK/ashhuhk.github.io`.
+3. Replace existing `index.html`, `_config.yml`, `.nojekyll`, `assets/`, `publications/`, `cv/`, and `photos/` if GitHub asks.
+4. In GitHub Pages settings, use `Deploy from a branch` → `main` → `/root`.
+
+## Structure
+
+- `index.html`: Home / About / Research interests / Research image
+- `publications/index.html`: Publications from 2023 to present, simplified
+- `cv/index.html`: Education only, with advisor links
+- `assets/css/main.css`: Minimal academic style
+- `assets/js/lang.js`: English / Chinese switch
+- `photos/WechatIMG251.jpeg`: profile photo, shown without cropping
+- `assets/images/research-overview.png`: uploaded research overview image

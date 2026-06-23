@@ -1,182 +1,83 @@
 <!doctype html>
 <html lang="en" data-lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Zhihang Hu — Assistant Professor, PhD Supervisor, Research Scientist at Great Bay University. AI and computational biology for RNA structure, interaction, and biomolecular design." />
-  <title>Zhihang Hu | Great Bay University</title>
-  <link rel="stylesheet" href="assets/style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zhihang Hu</title>
+  <meta name="description" content="Zhihang Hu — Assistant Professor, PhD Supervisor, and Research Scientist at Great Bay University.">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-  <header class="site-header" id="top">
-    <nav class="nav wrap" aria-label="Primary navigation">
-      <a class="brand" href="#top" aria-label="Zhihang Hu homepage">
-        <span class="brand-mark">ZH</span>
-        <span class="brand-text">Zhihang Hu</span>
-      </a>
-      <div class="nav-links">
-        <a href="#about" data-en="About" data-zh="关于我">About</a>
-        <a href="#publications" data-en="Publications" data-zh="论文">Publications</a>
-        <a href="#education" data-en="Education" data-zh="教育经历">Education</a>
-        <a href="#research" data-en="Research" data-zh="后续研究">Research</a>
-      </div>
-      <button class="lang-toggle" type="button" aria-label="Switch language">中文</button>
-    </nav>
+  <header class="site-header">
+    <div class="topbar">
+      <a class="brand" href="index.html">Zhihang Hu</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="publications/">Publications</a>
+        <a href="cv/">CV</a>
+        <button class="lang-switch" type="button" data-lang-toggle>中文</button>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="intro wrap" id="about">
-      <aside class="profile-card">
-        <img class="portrait" src="photos/WechatIMG251.jpeg" alt="Portrait of Zhihang Hu" />
-        <div class="profile-meta">
-          <h1>
-            <span class="lang lang-en">Zhihang Hu</span>
-            <span class="lang lang-zh">胡智航</span>
-          </h1>
-          <p class="lang lang-en">Assistant Professor · PhD Supervisor · Research Scientist</p>
-          <p class="lang lang-zh">助理教授 · 博士生导师 · 研究员</p>
-          <p class="lang lang-en">School of Information Science and Technology, Great Bay University</p>
-          <p class="lang lang-zh">大湾区大学 信息科学技术学院</p>
-        </div>
-        <div class="contact-row">
-          <a href="mailto:ashhu.hk@gmail.com">Email</a>
-          <a href="https://github.com/AshHuHK" target="_blank" rel="noopener">GitHub</a>
-        </div>
-      </aside>
+  <main class="page">
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <img class="avatar" src="photos/WechatIMG251.jpeg" alt="Zhihang Hu">
+        <h2>Zhihang Hu</h2>
+        <p class="title lang-en">Assistant Professor<br>PhD Supervisor<br>Research Scientist<br>Great Bay University</p>
+        <p class="title lang-zh">助理教授<br>博士生导师<br>研究员<br>大湾区大学</p>
+        <ul class="meta">
+          <li>Guangdong, China</li>
+          <li><a href="mailto:ashhu.hk@gmail.com">ashhu.hk@gmail.com</a></li>
+          <li><a href="https://scholar.google.com/citations?user=GWXSwv8AAAAJ&hl=en&oi=ao">Google Scholar</a></li>
+          <li><a href="https://github.com/AshHuHK">GitHub</a></li>
+        </ul>
+      </div>
+    </aside>
 
-      <section class="about-card" aria-labelledby="about-title-en about-title-zh">
-        <p class="section-kicker lang lang-en">About Me</p>
-        <p class="section-kicker lang lang-zh">关于我</p>
-        <h2 id="about-title-en" class="lang lang-en">Assistant Professor at Great Bay University</h2>
-        <h2 id="about-title-zh" class="lang lang-zh">大湾区大学助理教授</h2>
-        <p class="lang lang-en">I am an Assistant Professor, PhD Supervisor, and Research Scientist at the School of Information Science and Technology, Great Bay University. My research develops AI and machine learning methods for computational biology, with a focus on RNA structure, RNA–protein interaction, and biomolecular design.</p>
-        <p class="lang lang-zh">我现任大湾区大学信息科学技术学院助理教授、博士生导师、研究员。我的研究主要发展面向计算生物学的人工智能与机器学习方法，关注 RNA 结构、RNA—蛋白互作与生物大分子设计。</p>
-      </section>
-    </section>
+    <section class="content">
+      <div class="lang-en">
+        <h1>About me</h1>
+        <p>I am an Assistant Professor, PhD Supervisor, and Research Scientist at the School of Information Science and Technology, Great Bay University.</p>
+        <p>My research develops artificial intelligence methods for computational RNA biology, with a focus on RNA structure modeling, RNA–protein interaction modeling, and molecular design.</p>
+        <p>I received my Ph.D. in Computer Science from The Chinese University of Hong Kong, advised by <a href="https://www.cse.cuhk.edu.hk/people/faculty/yu-li/">Prof. Yu Li</a> and <a href="https://www.cse.cuhk.edu.hk/people/faculty/irwin-king/">Prof. Irwin King</a>. I received my B.S. in Mathematics from Shanghai Jiao Tong University.</p>
 
-    <section class="section wrap" id="publications">
-      <div class="section-head">
-        <p class="section-kicker lang lang-en">Publications</p>
-        <p class="section-kicker lang lang-zh">论文</p>
-        <h2 class="lang lang-en">Selected publications, 2023–present</h2>
-        <h2 class="lang lang-zh">2023 年以来代表性论文</h2>
+        <h2>Research interests</h2>
+        <ul>
+          <li>AI for RNA structure and cellular-context modeling</li>
+          <li>RNA–protein interaction and interface prediction</li>
+          <li>Molecular design and computational biology</li>
+        </ul>
+
+        <h2>My research path</h2>
+        <figure class="research-figure">
+          <img src="assets/images/research-overview.png" alt="Research overview">
+        </figure>
       </div>
 
-      <div class="pub-list" aria-label="Selected publications since 2023">
-        <article class="pub-item">
-          <div class="pub-year">2026</div>
-          <div class="pub-main">
-            <h3>PRIDE: A survey and benchmark for structure-guided protein design with deep learning</h3>
-            <p>Genomics, Proteomics &amp; Bioinformatics</p>
-          </div>
-        </article>
+      <div class="lang-zh">
+        <h1>关于我</h1>
+        <p>我现任大湾区大学信息科学技术学院助理教授、博士生导师、研究员。</p>
+        <p>我的研究聚焦于面向 RNA 计算生物学的人工智能方法，主要包括 RNA 结构建模、RNA–蛋白互作建模与分子设计。</p>
+        <p>博士毕业于香港中文大学计算机科学专业，导师为 <a href="https://www.cse.cuhk.edu.hk/people/faculty/yu-li/">Yu Li 教授</a> 和 <a href="https://www.cse.cuhk.edu.hk/people/faculty/irwin-king/">Irwin King 教授</a>；本科毕业于上海交通大学数学专业。</p>
 
-        <article class="pub-item">
-          <div class="pub-year">2025</div>
-          <div class="pub-main">
-            <h3>Fast, sensitive detection of protein homologs using deep dense retrieval</h3>
-            <p>Nature Biotechnology</p>
-          </div>
-        </article>
+        <h2>研究方向</h2>
+        <ul>
+          <li>面向 RNA 结构与细胞环境建模的人工智能方法</li>
+          <li>RNA–蛋白互作与界面预测</li>
+          <li>分子设计与计算生物学</li>
+        </ul>
 
-        <article class="pub-item">
-          <div class="pub-year">2025</div>
-          <div class="pub-main">
-            <h3>Deep learning for RNA structure prediction</h3>
-            <p>Current Opinion in Structural Biology</p>
-          </div>
-        </article>
-
-        <article class="pub-item">
-          <div class="pub-year">2024</div>
-          <div class="pub-main">
-            <h3>Accurate RNA 3D structure prediction using a language model-based deep learning approach</h3>
-            <p>Nature Methods</p>
-          </div>
-        </article>
-
-        <article class="pub-item">
-          <div class="pub-year">2024</div>
-          <div class="pub-main">
-            <h3>Deep generative design of RNA aptamers using structural predictions</h3>
-            <p>Nature Computational Science</p>
-          </div>
-        </article>
-
-        <article class="pub-item">
-          <div class="pub-year">2024</div>
-          <div class="pub-main">
-            <h3>Progress and opportunities of foundation models in bioinformatics</h3>
-            <p>Briefings in Bioinformatics</p>
-          </div>
-        </article>
-
-        <article class="pub-item">
-          <div class="pub-year">2023</div>
-          <div class="pub-main">
-            <h3>Drug synergistic combinations predictions via large-scale pre-training and graph structure learning</h3>
-            <p>RECOMB</p>
-          </div>
-        </article>
-
-        <article class="pub-item">
-          <div class="pub-year">2023</div>
-          <div class="pub-main">
-            <h3>Con-AAE: contrastive cycle adversarial autoencoders for single-cell multi-omics alignment and integration</h3>
-            <p>Bioinformatics</p>
-          </div>
-        </article>
+        <h2>研究概览</h2>
+        <figure class="research-figure">
+          <img src="assets/images/research-overview.png" alt="Research overview">
+        </figure>
       </div>
-    </section>
-
-    <section class="section wrap" id="education">
-      <div class="section-head">
-        <p class="section-kicker lang lang-en">Education</p>
-        <p class="section-kicker lang lang-zh">教育经历</p>
-        <h2 class="lang lang-en">Academic training</h2>
-        <h2 class="lang lang-zh">学术训练</h2>
-      </div>
-
-      <div class="edu-list">
-        <article class="edu-card">
-          <h3 class="lang lang-en">Ph.D. in Computer Science</h3>
-          <h3 class="lang lang-zh">计算机科学博士</h3>
-          <p class="school lang lang-en">The Chinese University of Hong Kong</p>
-          <p class="school lang lang-zh">香港中文大学</p>
-          <p class="advisor lang lang-en">Advisors: <a href="https://www.cse.cuhk.edu.hk/people/faculty/yu-li/" target="_blank" rel="noopener">Prof. Yu Li</a> and <a href="https://www.cse.cuhk.edu.hk/people/faculty/irwin-king/" target="_blank" rel="noopener">Prof. Irwin King</a></p>
-          <p class="advisor lang lang-zh">导师：<a href="https://www.cse.cuhk.edu.hk/people/faculty/yu-li/" target="_blank" rel="noopener">李煜教授</a>、<a href="https://www.cse.cuhk.edu.hk/people/faculty/irwin-king/" target="_blank" rel="noopener">Irwin King 教授</a></p>
-        </article>
-
-        <article class="edu-card">
-          <h3 class="lang lang-en">B.S. in Mathematics</h3>
-          <h3 class="lang lang-zh">数学本科</h3>
-          <p class="school lang lang-en">Shanghai Jiao Tong University</p>
-          <p class="school lang lang-zh">上海交通大学</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section wrap" id="research">
-      <div class="section-head">
-        <p class="section-kicker lang lang-en">Future Research</p>
-        <p class="section-kicker lang lang-zh">后续研究</p>
-        <h2 class="lang lang-en">AI for biomedical and biomolecular science</h2>
-        <h2 class="lang lang-zh">面向生物医学与生物大分子科学的人工智能</h2>
-      </div>
-
-      <figure class="research-figure">
-        <img src="assets/research-overview.png" alt="Artificial intelligence connecting biomedical applications and computational biology tasks" />
-        <figcaption class="lang lang-en">Future research overview: using artificial intelligence to connect biomedical applications with structure prediction, sequence analysis, molecule design, and function prediction.</figcaption>
-        <figcaption class="lang lang-zh">后续研究示意图：以人工智能连接生物医学应用与结构预测、序列分析、分子设计和功能预测等计算任务。</figcaption>
-      </figure>
     </section>
   </main>
 
-  <footer class="footer wrap">
-    <p>© <span id="year"></span> Zhihang Hu · Great Bay University</p>
-    <a href="#top" data-en="Back to top" data-zh="回到顶部">Back to top</a>
-  </footer>
-
-  <script src="assets/app.js"></script>
+  <footer class="footer">© 2026 Zhihang Hu. Powered by GitHub Pages.</footer>
+  <script src="assets/js/lang.js"></script>
 </body>
 </html>
