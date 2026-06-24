@@ -185,19 +185,6 @@ html[data-lang="en"] .lang-en { display: block; }
   border-top: 1px solid var(--border);
 }
 
-.brand-cn {
-  margin-left: 6px;
-  font-size: 0.9em;
-  font-weight: 400;
-}
-
-.name-cn {
-  margin: -8px 0 14px 0;
-  font-size: 18px;
-  color: #333;
-  font-weight: 400;
-}
-
 @media (max-width: 820px) {
   .topbar { align-items: flex-start; flex-direction: column; gap: 10px; }
   .nav { flex-wrap: wrap; gap: 14px; }
@@ -206,4 +193,33 @@ html[data-lang="en"] .lang-en { display: block; }
   .avatar { width: 145px; }
   h1 { font-size: 26px; }
   h2 { font-size: 20px; }
+}
+
+
+.brand-cn {
+  margin-left: 6px;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+.name-cn {
+  margin: -6px 0 14px 0;
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+}
+
+.sidebar .title strong {
+  font-weight: 600;
+  color: #111827;
+}
+
+.meta-icon {
+  display: inline-block;
+  width: 1.35em;
+  color: #6b7280;
+}
+
+.work-list li {
+  margin-bottom: 8px;
 }
